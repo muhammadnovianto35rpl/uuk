@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Blog Teknologi Saya</title>
+  <link rel="stylesheet" href="uukstyle.css">
+</head>
+<body>
+
+  <header>
+    <h1>Blog Teknologi Saya</h1>
+  </header>
+
+  <main>
+    <article>
+      <h2>Perkembangan Kecerdasan Buatan di Era Modern</h2>
+      <img src="pantai.jpeg" alt="Ilustrasi Teknologi AI" class="gambar-artikel">
+      <p>
+        Perkembangan teknologi kecerdasan buatan atau Artificial Intelligence (AI) semakin pesat dalam beberapa tahun terakhir. Berbagai sektor industri mulai dari pendidikan, kesehatan, hingga transportasi kini memanfaatkan otomatisasi untuk meningkatkan efisiensi kerja sehari-hari.
+      </p>
+      <p>
+        Meskipun menawarkan banyak kemudahan, pengguna teknologi tetap perlu memahami etika dan keamanan data dalam penerapannya. Penguasaan dasar-dasar pemrograman dan literasi digital menjadi kunci utama agar generasi muda dapat menjadi pencipta inovasi, bukan sekadar pengguna.
+      </p>
+    </article>
+
+    <aside>
+      <img src="keren.jpeg" alt="Foto Profil Penulis" class="foto-profil">
+      <h3>Tentang Penulis</h3>
+      <p>
+        Halo! Saya Rasya, pelajar jurusan Rekayasa Perangkat Lunak (RPL) yang tertarik dengan dunia pengembangan web, desain antarmuka, dan teknologi terkini.
+      </p>
+    </aside>
+  </main>
+
+  <form id="formKontak" action="#" method="get">
+    <h2>FORM KONTAK</h2>
+
+    <div class="grup-input">
+      <label for="nama">Nama:</label>
+      <input type="text" id="nama" name="nama" required minlength="3" maxlength="50" placeholder="Masukkan nama lengkap">
+    </div>
+
+    <div class="grup-input">
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required placeholder="contoh@email.com">
+    </div>
+
+    <div class="grup-input">
+      <label for="topik">Topik:</label>
+      <select id="topik" name="topik" required>
+        <option value="">-- Pilih --</option>
+        <option value="pertanyaan">Pertanyaan Artikel</option>
+        <option value="saran">Saran Topik Baru</option>
+        <option value="kerjasama">Kerja Sama Proyek</option>
+      </select>
+    </div>
+
+    <div class="grup-input">
+      <label for="pesan">Pesan:</label>
+      <textarea id="pesan" name="pesan" rows="4" required minlength="10" maxlength="200" placeholder="Tulis pesan Anda (minimal 10 karakter)..."></textarea>
+    </div>
+
+    <div class="grup-checkbox">
+      <span>Langganan:</span>
+      <input type="checkbox" id="langganan" name="langganan">
+      <label for="langganan">Langganan artikel baru</label>
+    </div>
+
+    <button type="submit" class="btn-kirim">Kirim</button>
+  </form>
+
+  <footer>
+    <p>&copy; 2026 Blog Teknologi Saya. Hak Cipta Dilindungi.</p>
+  </footer>
+
+</body>
+</html>
